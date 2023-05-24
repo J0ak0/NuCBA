@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.logo{
+    margin: 20px;
+    width: 10em;
+}
+
+.subtitulo, p {
+    color: blue;
+}
+
+#titulo{
+    color: rgb(42, 184, 89);
+    background: whitesmoke;
+}
+
+.italic {
+    font-style: italic;
+}
+
+a {
+    color: darkred;
+    background: yellow;
+}
+
+a:visited{
+    color: rgb(111, 38, 117);
+}
+
+a:hover{
+    background: red;
+}
+
+p:first-child{
+    color: darkgoldenrod;
+}
+
+p:last-child{
+    color: firebrick;
+}
+
+p:nth-child(3){
+    font-size: 30px;
+}
+
+p:nth-child(even){
+    background: gray;
+}
+
+p:hover{
+    background: black;
+}
