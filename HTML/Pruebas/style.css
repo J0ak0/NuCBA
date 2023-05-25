@@ -1,13 +1,14 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-}
+} */
 
-.logo{
-    margin: 20px;
-    width: 10em;
+.logo {
+    width: 150px;
+    border: 2px solid black;
+    margin: 10px;
 }
 
 .subtitulo, p {
